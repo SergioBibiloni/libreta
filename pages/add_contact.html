@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="../style/estiilos_add_contact.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<h1>LIBRETA DE DIRECCIONES </h1>
+
+		</nav>
+		<button class="logoatras" onclick="window.history.back()"><b>Volver atras</b></button>
+	</header>
+
+	<br><br><br><br><br><br><br><br>
+	<section class="container">
+
+		<section class="bloqueformimg">
+			<section class="bloqeimg2"><img src="../img/material-symbols_add-call-outline-sharp@2x.png" alt="WIP">
+			</section>
+
+			<section class="formulario">
+
+				<h1>ANADIR CONTACTO </h1>
+				<form action="procesar.php" method="POST">
+
+					<label for="nombre"><b>Nombre:</b></label>
+					<input type="text" placeholder="Nombre" name="nombre" required>
+
+					<label for="apellidos"><b>Apellidos:</b></label>
+					<input type="text" placeholder="Apellidos" name="apellidos" required>
+
+					<label for="direccion"><b>Direccion:</b></label>
+					<input type="text" placeholder="Direccio" name="direccion" required>
+
+					<label for="telefono"> <b>Telefono:</b></label>
+					<input type="tel" placeholder="Telefono" name="telefono" required>
+
+					<label for="movil"> <b>Movil:</b> </label>
+					<input type="tel" placeholder="Movil" name="movil" required>
+
+					<label for="correo"><b>Correo Electronico:</b> </label>
+					<input type="email" placeholder="Correo Electronico" name="correo" required>
+					<!--BOTONES PARA IR HACIA ATRAS Y AÑADIR CONTACTO-->
+					<section>
+
+						<form class="botonañadir" action="../pages/add_contact.html">
+							<button class="btn"><b>Anadir Contacto</b> </button>
+						</form>
+					</section>
+					
+				</form>
+			</section>
+		</section>
+
+
+	</section>
+	<br><br><br>
+</body>
+
+
+
+<footer>
+	<div class="container2">
+		<div class="row">
+			<br><br>
+			<div class="col-md-6 text-md-right">
+				<span> <b>SIguenos en:</b> </span>
+				<br><br>
+				<b><img src="../img/fluent-mdl2_git-hub-logo@2x.svg"><i>GIT-HUB</i></b>
+				<br><br>
+				<b><img src="../img/mdi_instagram@2x.svg"><i>INSTAGRAM</i></b>
+				<br><br>
+				<b><img src="../img/jam_youtube@2x.svg"><i>YOUTUBE</i></b>
+				<br><br>
+				<b><img src="../img/ph_facebook-logo-bold@2x.svg"><i>FACEBOOK</i></b>
+				<br><br>
+			</div>
+			<div class="bloquecopy">
+				<div class="cooopy">
+					<b>&copy; 2023 Mi Empresa. Todos los derechos reservados.</b>
+				</div>
+			</div>
+		</div>
+</footer>
+
+</html>

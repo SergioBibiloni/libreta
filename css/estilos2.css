@@ -1,0 +1,237 @@
+/* Estilos para la página Agregar Contacto */
+
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #2c3e50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin: 40px 0;
+}
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    color: #fff;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: 100%;
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    background-color: #34495e;
+    color: #fff;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px #1abc9c;
+}
+
+button {
+    display: block;
+    width: 150px;
+    height: 50px;
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #16a085;
+}
+
+/* Estilos para el botón de inicio */
+.botonatr {
+    display: block;
+    margin-top: 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.botonatr:hover {
+    background-color: #c0392b;
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="email"] {
+        font-size: 14px;
+    }
+
+    button {
+        width: 120px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .botonatr {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+/* Estilos para pantallas medianas */
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="email"] {
+        font-size: 16px;
+    }
+
+    button {
+        width: 130px;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .botonatr {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #222;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin: 40px 0;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto;
+        max-width: 500px;
+    }
+
+    label {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="email"] {
+        background-color: #333;
+        border: none;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    button[type="submit"] {
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 4px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 20px;
+        margin-top: 20px;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #3e8e41;
+    }
+
+    .botonatr {
+        background-color: #3e8e41;
+        border: none;
+        border-radius: 4px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 20px;
+        margin-top: 20px;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+    }
+
+    .botonatr:hover {
+        background-color: #4CAF50;
+    }
+
+    @media screen and (max-width: 600px) {
+
+        input[type="text"],
+        input[type="number"],
+        input[type="email"] {
+            font-size: 16px;
+            margin-bottom: 10px;
+            padding: 8px;
+        }
+
+        label {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        button[type="submit"],
+        .botonatr {
+            font-size: 18px;
+            margin-top: 16px;
+            padding: 8px 16px;
+        }
+    }
+}
